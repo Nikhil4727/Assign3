@@ -1,0 +1,36 @@
+/* Basic styles */
+
+.container {
+    width: 300px;
+    height: 150px;
+    background-color: #ed07a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+.text {
+    font-size: 20px;
+    color: #333;
+}
+
+.toggle-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff200;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button.active {
+    background-color: #07f13e;
+}
